@@ -1,0 +1,28 @@
+{
+  "name": "github-pages-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvscode/github-pages-demo.git"
+  },
+  "keywords": [],
+  "author": "Vasil Vanchuk <v.vanchuk@tbank.ru>",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vvscode/github-pages-demo/issues"
+  },
+  "homepage": "https://github.com/vvscode/github-pages-demo#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.7",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
+  }
+}
