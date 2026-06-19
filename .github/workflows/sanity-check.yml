@@ -1,7 +1,6 @@
 name: Pull Request Sanity Check
 
-on:
-  push
+on: push
 
 jobs:
   sanity-check:
